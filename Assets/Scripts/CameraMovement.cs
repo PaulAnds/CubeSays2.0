@@ -9,7 +9,7 @@ public class CameraMovement : MonoBehaviour
     public float smoothSpeed = 0.525f;
     public Vector3 offset;
 
-    private bool Camera2D;
+    public bool Camera2D;
     private bool finishOrtho;
     private Vector3 topViewPos;
     private Quaternion topViewRot;
